@@ -1,0 +1,16 @@
+#karuselli img {
+    object-fit: cover;
+}
+#wallpaper{
+    background: url("https://jamievesay.files.wordpress.com/2014/12/th_wind-farm-at-sunset-winter-111614-jamie-vesay-wm-img_5995-version-3-copy.jpg");
+    background-color: white;
+}
+
+
+
+@media (max-width: 767px) {
+    #karuselli img {
+        height: 179px !important;
+    }
+}
+

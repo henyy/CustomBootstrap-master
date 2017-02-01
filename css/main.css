@@ -2,15 +2,81 @@
     object-fit: cover;
 }
 #wallpaper{
-    background: url("https://jamievesay.files.wordpress.com/2014/12/th_wind-farm-at-sunset-winter-111614-jamie-vesay-wm-img_5995-version-3-copy.jpg");
-    background-color: white;
+    background: url(http://farm9.staticflickr.com/8222/8254861601_1fbf969a14_b.jpg);
+    background-size: cover;
+    top: -60px;
+    height: 580px;
+    overflow: hidden;
+    position: relative;
+    background-position: center 16%;
+    color: white;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+    font-size: 14px;
+    line-height: 1.42857143;
+
+}
+
+.container{
+    width: 970px;
+}
+
+ul{
+    margin-left: 400px;
 }
 
 
+#navbardrop{
+    color: white;
+}
+
+.button-outline{
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    color: #fff;
+    padding: 12px 31px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.15);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.button{
+    padding: 13px 32px;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px, inset rgba(255, 255, 255, 0.88) 0px 1px 3px -1px;
+    background-color: #4589E3;
+}
+
+#rowheader{
+    text-align: center;
+}
+
+body{
+    font-family: "Helvetica Neue","Helvetica,Arial","sans-serif";
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+#jumbomargin{
+    width: 970px;
+    margin-left: 900px;
+}
 
 @media (max-width: 767px) {
     #karuselli img {
         height: 179px !important;
     }
 }
-
